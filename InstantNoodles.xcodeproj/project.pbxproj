@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA59724D424C400C7BE94 /* AppDelegate.swift */; };
+		186FA59C24D424C400C7BE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA59B24D424C400C7BE94 /* ViewController.swift */; };
+		186FA59F24D424C400C7BE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FA59D24D424C400C7BE94 /* Main.storyboard */; };
+		186FA5A124D424C500C7BE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186FA5A024D424C500C7BE94 /* Assets.xcassets */; };
+		186FA5A424D424C500C7BE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */; };
+		186FA5AF24D424C500C7BE94 /* InstantNoodlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5AE24D424C500C7BE94 /* InstantNoodlesTests.swift */; };
+		186FA5BA24D424C500C7BE94 /* InstantNoodlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5B924D424C500C7BE94 /* InstantNoodlesUITests.swift */; };
+		F60707782F12B1B26D0164E9 /* Pods_InstantNoodles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186FA5AB24D424C500C7BE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186FA58C24D424C400C7BE94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186FA59324D424C400C7BE94;
+			remoteInfo = InstantNoodles;
+		};
+		186FA5B624D424C500C7BE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186FA58C24D424C400C7BE94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186FA59324D424C400C7BE94;
+			remoteInfo = InstantNoodles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186FA59424D424C400C7BE94 /* InstantNoodles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantNoodles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FA59724D424C400C7BE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186FA59B24D424C400C7BE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186FA59E24D424C400C7BE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186FA5A024D424C500C7BE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186FA5A324D424C500C7BE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186FA5A524D424C500C7BE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186FA5AA24D424C500C7BE94 /* InstantNoodlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantNoodlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FA5AE24D424C500C7BE94 /* InstantNoodlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantNoodlesTests.swift; sourceTree = "<group>"; };
+		186FA5B024D424C500C7BE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186FA5B524D424C500C7BE94 /* InstantNoodlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantNoodlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FA5B924D424C500C7BE94 /* InstantNoodlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantNoodlesUITests.swift; sourceTree = "<group>"; };
+		186FA5BB24D424C500C7BE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249B1CBE31BB2A8B1D165932 /* Pods-InstantNoodles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.debug.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.debug.xcconfig"; sourceTree = "<group>"; };
+		3B31EC75E53BA96994D81FC6 /* Pods-InstantNoodles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.release.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.release.xcconfig"; sourceTree = "<group>"; };
+		7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantNoodles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186FA59124D424C400C7BE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60707782F12B1B26D0164E9 /* Pods_InstantNoodles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5A724D424C500C7BE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5B224D424C500C7BE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DCEB25C62190459E58669BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186FA58B24D424C400C7BE94 = {
+			isa = PBXGroup;
+			children = (
+				186FA59624D424C400C7BE94 /* InstantNoodles */,
+				186FA5AD24D424C500C7BE94 /* InstantNoodlesTests */,
+				186FA5B824D424C500C7BE94 /* InstantNoodlesUITests */,
+				186FA59524D424C400C7BE94 /* Products */,
+				6E5700605792CA21B7453C91 /* Pods */,
+				0DCEB25C62190459E58669BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186FA59524D424C400C7BE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186FA59424D424C400C7BE94 /* InstantNoodles.app */,
+				186FA5AA24D424C500C7BE94 /* InstantNoodlesTests.xctest */,
+				186FA5B524D424C500C7BE94 /* InstantNoodlesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186FA59624D424C400C7BE94 /* InstantNoodles */ = {
+			isa = PBXGroup;
+			children = (
+				186FA59724D424C400C7BE94 /* AppDelegate.swift */,
+				186FA59B24D424C400C7BE94 /* ViewController.swift */,
+				186FA59D24D424C400C7BE94 /* Main.storyboard */,
+				186FA5A024D424C500C7BE94 /* Assets.xcassets */,
+				186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */,
+				186FA5A524D424C500C7BE94 /* Info.plist */,
+			);
+			path = InstantNoodles;
+			sourceTree = "<group>";
+		};
+		186FA5AD24D424C500C7BE94 /* InstantNoodlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5AE24D424C500C7BE94 /* InstantNoodlesTests.swift */,
+				186FA5B024D424C500C7BE94 /* Info.plist */,
+			);
+			path = InstantNoodlesTests;
+			sourceTree = "<group>";
+		};
+		186FA5B824D424C500C7BE94 /* InstantNoodlesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5B924D424C500C7BE94 /* InstantNoodlesUITests.swift */,
+				186FA5BB24D424C500C7BE94 /* Info.plist */,
+			);
+			path = InstantNoodlesUITests;
+			sourceTree = "<group>";
+		};
+		6E5700605792CA21B7453C91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249B1CBE31BB2A8B1D165932 /* Pods-InstantNoodles.debug.xcconfig */,
+				3B31EC75E53BA96994D81FC6 /* Pods-InstantNoodles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186FA59324D424C400C7BE94 /* InstantNoodles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FA5BE24D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodles" */;
+			buildPhases = (
+				E71B64EA4A2184364BB48C37 /* [CP] Check Pods Manifest.lock */,
+				186FA59024D424C400C7BE94 /* Sources */,
+				186FA59124D424C400C7BE94 /* Frameworks */,
+				186FA59224D424C400C7BE94 /* Resources */,
+				23A63C5D1BEB923F504222C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantNoodles;
+			productName = InstantNoodles;
+			productReference = 186FA59424D424C400C7BE94 /* InstantNoodles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186FA5A924D424C500C7BE94 /* InstantNoodlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FA5C124D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodlesTests" */;
+			buildPhases = (
+				186FA5A624D424C500C7BE94 /* Sources */,
+				186FA5A724D424C500C7BE94 /* Frameworks */,
+				186FA5A824D424C500C7BE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186FA5AC24D424C500C7BE94 /* PBXTargetDependency */,
+			);
+			name = InstantNoodlesTests;
+			productName = InstantNoodlesTests;
+			productReference = 186FA5AA24D424C500C7BE94 /* InstantNoodlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186FA5B424D424C500C7BE94 /* InstantNoodlesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FA5C424D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodlesUITests" */;
+			buildPhases = (
+				186FA5B124D424C500C7BE94 /* Sources */,
+				186FA5B224D424C500C7BE94 /* Frameworks */,
+				186FA5B324D424C500C7BE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186FA5B724D424C500C7BE94 /* PBXTargetDependency */,
+			);
+			name = InstantNoodlesUITests;
+			productName = InstantNoodlesUITests;
+			productReference = 186FA5B524D424C500C7BE94 /* InstantNoodlesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186FA58C24D424C400C7BE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = qiao;
+				TargetAttributes = {
+					186FA59324D424C400C7BE94 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					186FA5A924D424C500C7BE94 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 186FA59324D424C400C7BE94;
+					};
+					186FA5B424D424C500C7BE94 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 186FA59324D424C400C7BE94;
+					};
+				};
+			};
+			buildConfigurationList = 186FA58F24D424C400C7BE94 /* Build configuration list for PBXProject "InstantNoodles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186FA58B24D424C400C7BE94;
+			productRefGroup = 186FA59524D424C400C7BE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186FA59324D424C400C7BE94 /* InstantNoodles */,
+				186FA5A924D424C500C7BE94 /* InstantNoodlesTests */,
+				186FA5B424D424C500C7BE94 /* InstantNoodlesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186FA59224D424C400C7BE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FA5A424D424C500C7BE94 /* LaunchScreen.storyboard in Resources */,
+				186FA5A124D424C500C7BE94 /* Assets.xcassets in Resources */,
+				186FA59F24D424C400C7BE94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5A824D424C500C7BE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5B324D424C500C7BE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A63C5D1BEB923F504222C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E71B64EA4A2184364BB48C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantNoodles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186FA59024D424C400C7BE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FA59C24D424C400C7BE94 /* ViewController.swift in Sources */,
+				186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5A624D424C500C7BE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FA5AF24D424C500C7BE94 /* InstantNoodlesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FA5B124D424C500C7BE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FA5BA24D424C500C7BE94 /* InstantNoodlesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186FA5AC24D424C500C7BE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186FA59324D424C400C7BE94 /* InstantNoodles */;
+			targetProxy = 186FA5AB24D424C500C7BE94 /* PBXContainerItemProxy */;
+		};
+		186FA5B724D424C500C7BE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186FA59324D424C400C7BE94 /* InstantNoodles */;
+			targetProxy = 186FA5B624D424C500C7BE94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186FA59D24D424C400C7BE94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186FA59E24D424C400C7BE94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186FA5A324D424C500C7BE94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186FA5BC24D424C500C7BE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186FA5BD24D424C500C7BE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186FA5BF24D424C500C7BE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249B1CBE31BB2A8B1D165932 /* Pods-InstantNoodles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186FA5C024D424C500C7BE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B31EC75E53BA96994D81FC6 /* Pods-InstantNoodles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186FA5C224D424C500C7BE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodlesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantNoodles.app/InstantNoodles";
+			};
+			name = Debug;
+		};
+		186FA5C324D424C500C7BE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodlesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantNoodles.app/InstantNoodles";
+			};
+			name = Release;
+		};
+		186FA5C524D424C500C7BE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstantNoodles;
+			};
+			name = Debug;
+		};
+		186FA5C624D424C500C7BE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LB3BYSC5G;
+				INFOPLIST_FILE = InstantNoodlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstantNoodles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186FA58F24D424C400C7BE94 /* Build configuration list for PBXProject "InstantNoodles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FA5BC24D424C500C7BE94 /* Debug */,
+				186FA5BD24D424C500C7BE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186FA5BE24D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FA5BF24D424C500C7BE94 /* Debug */,
+				186FA5C024D424C500C7BE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186FA5C124D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FA5C224D424C500C7BE94 /* Debug */,
+				186FA5C324D424C500C7BE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186FA5C424D424C500C7BE94 /* Build configuration list for PBXNativeTarget "InstantNoodlesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FA5C524D424C500C7BE94 /* Debug */,
+				186FA5C624D424C500C7BE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186FA58C24D424C400C7BE94 /* Project object */;
+}
