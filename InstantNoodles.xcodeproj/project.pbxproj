@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		186FA59424D424C400C7BE94 /* InstantNoodles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantNoodles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FA59424D424C400C7BE94 /* Swift项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186FA59724D424C400C7BE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186FA59B24D424C400C7BE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		186FA59E24D424C400C7BE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		186FA59524D424C400C7BE94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				186FA59424D424C400C7BE94 /* InstantNoodles.app */,
+				186FA59424D424C400C7BE94 /* Swift项目.app */,
 				186FA5AA24D424C500C7BE94 /* InstantNoodlesTests.xctest */,
 				186FA5B524D424C500C7BE94 /* InstantNoodlesUITests.xctest */,
 			);
@@ -239,7 +239,7 @@
 			);
 			name = InstantNoodles;
 			productName = InstantNoodles;
-			productReference = 186FA59424D424C400C7BE94 /* InstantNoodles.app */;
+			productReference = 186FA59424D424C400C7BE94 /* Swift项目.app */;
 			productType = "com.apple.product-type.application";
 		};
 		186FA5A924D424C500C7BE94 /* InstantNoodlesTests */ = {
@@ -585,7 +585,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift项目";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -605,7 +605,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiao.InstantNoodles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift项目";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
