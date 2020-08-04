@@ -14,6 +14,11 @@
 		186FA5A424D424C500C7BE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */; };
 		186FA5AF24D424C500C7BE94 /* InstantNoodlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5AE24D424C500C7BE94 /* InstantNoodlesTests.swift */; };
 		186FA5BA24D424C500C7BE94 /* InstantNoodlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5B924D424C500C7BE94 /* InstantNoodlesUITests.swift */; };
+		186FA5CC24D4285400C7BE94 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5CB24D4285400C7BE94 /* ArrayExtension.swift */; };
+		186FA5D924D801C200C7BE94 /* INTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5D824D801C200C7BE94 /* INTabViewController.swift */; };
+		186FA5DB24D8024B00C7BE94 /* INHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5DA24D8024B00C7BE94 /* INHomeViewController.swift */; };
+		186FA5DD24D8026200C7BE94 /* INMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5DC24D8026200C7BE94 /* INMeViewController.swift */; };
+		186FA5E024D8029400C7BE94 /* INBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA5DF24D8029400C7BE94 /* INBaseViewController.swift */; };
 		F60707782F12B1B26D0164E9 /* Pods_InstantNoodles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,11 @@
 		186FA5B524D424C500C7BE94 /* InstantNoodlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantNoodlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186FA5B924D424C500C7BE94 /* InstantNoodlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantNoodlesUITests.swift; sourceTree = "<group>"; };
 		186FA5BB24D424C500C7BE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186FA5CB24D4285400C7BE94 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		186FA5D824D801C200C7BE94 /* INTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INTabViewController.swift; sourceTree = "<group>"; };
+		186FA5DA24D8024B00C7BE94 /* INHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INHomeViewController.swift; sourceTree = "<group>"; };
+		186FA5DC24D8026200C7BE94 /* INMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INMeViewController.swift; sourceTree = "<group>"; };
+		186FA5DF24D8029400C7BE94 /* INBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INBaseViewController.swift; sourceTree = "<group>"; };
 		249B1CBE31BB2A8B1D165932 /* Pods-InstantNoodles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.debug.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.debug.xcconfig"; sourceTree = "<group>"; };
 		3B31EC75E53BA96994D81FC6 /* Pods-InstantNoodles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.release.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.release.xcconfig"; sourceTree = "<group>"; };
 		7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantNoodles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +122,7 @@
 		186FA59624D424C400C7BE94 /* InstantNoodles */ = {
 			isa = PBXGroup;
 			children = (
+				186FA5C724D4283500C7BE94 /* main */,
 				186FA59724D424C400C7BE94 /* AppDelegate.swift */,
 				186FA59B24D424C400C7BE94 /* ViewController.swift */,
 				186FA59D24D424C400C7BE94 /* Main.storyboard */,
@@ -138,6 +149,66 @@
 				186FA5BB24D424C500C7BE94 /* Info.plist */,
 			);
 			path = InstantNoodlesUITests;
+			sourceTree = "<group>";
+		};
+		186FA5C724D4283500C7BE94 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5DE24D8028400C7BE94 /* base */,
+				186FA5C824D4283500C7BE94 /* constant */,
+				186FA5C924D4283500C7BE94 /* extension */,
+				186FA5CA24D4283500C7BE94 /* src */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		186FA5C824D4283500C7BE94 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		186FA5C924D4283500C7BE94 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5CB24D4285400C7BE94 /* ArrayExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		186FA5CA24D4283500C7BE94 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5D824D801C200C7BE94 /* INTabViewController.swift */,
+				186FA5D424D800E100C7BE94 /* home */,
+				186FA5D524D800E100C7BE94 /* me */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		186FA5D424D800E100C7BE94 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5DA24D8024B00C7BE94 /* INHomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		186FA5D524D800E100C7BE94 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5DC24D8026200C7BE94 /* INMeViewController.swift */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		186FA5DE24D8028400C7BE94 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				186FA5DF24D8029400C7BE94 /* INBaseViewController.swift */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 		6E5700605792CA21B7453C91 /* Pods */ = {
@@ -213,6 +284,7 @@
 		186FA58C24D424C400C7BE94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IN;
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = qiao;
@@ -324,8 +396,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186FA5CC24D4285400C7BE94 /* ArrayExtension.swift in Sources */,
+				186FA5DD24D8026200C7BE94 /* INMeViewController.swift in Sources */,
+				186FA5DB24D8024B00C7BE94 /* INHomeViewController.swift in Sources */,
+				186FA5D924D801C200C7BE94 /* INTabViewController.swift in Sources */,
 				186FA59C24D424C400C7BE94 /* ViewController.swift in Sources */,
 				186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */,
+				186FA5E024D8029400C7BE94 /* INBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
