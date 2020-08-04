@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA59724D424C400C7BE94 /* AppDelegate.swift */; };
-		186FA59C24D424C400C7BE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA59B24D424C400C7BE94 /* ViewController.swift */; };
 		186FA59F24D424C400C7BE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FA59D24D424C400C7BE94 /* Main.storyboard */; };
 		186FA5A124D424C500C7BE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186FA5A024D424C500C7BE94 /* Assets.xcassets */; };
 		186FA5A424D424C500C7BE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		186FA59424D424C400C7BE94 /* Swift项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186FA59724D424C400C7BE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		186FA59B24D424C400C7BE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		186FA59E24D424C400C7BE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186FA5A024D424C500C7BE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186FA5A324D424C500C7BE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 			children = (
 				186FA5C724D4283500C7BE94 /* main */,
 				186FA59724D424C400C7BE94 /* AppDelegate.swift */,
-				186FA59B24D424C400C7BE94 /* ViewController.swift */,
 				186FA59D24D424C400C7BE94 /* Main.storyboard */,
 				186FA5A024D424C500C7BE94 /* Assets.xcassets */,
 				186FA5A224D424C500C7BE94 /* LaunchScreen.storyboard */,
@@ -400,7 +397,6 @@
 				186FA5DD24D8026200C7BE94 /* INMeViewController.swift in Sources */,
 				186FA5DB24D8024B00C7BE94 /* INHomeViewController.swift in Sources */,
 				186FA5D924D801C200C7BE94 /* INTabViewController.swift in Sources */,
-				186FA59C24D424C400C7BE94 /* ViewController.swift in Sources */,
 				186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */,
 				186FA5E024D8029400C7BE94 /* INBaseViewController.swift in Sources */,
 			);
