@@ -14,7 +14,7 @@ class INHomeViewController: INBaseViewController {
         super.viewDidLoad()
         self.title = "首页"
 
-        NotificationCenter.default.addObserver(self, selector: #selector(onLoginSuccess), name: INNotificationName.loginSuccess, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(onLoginSuccess), name: INNotification.loginSuccess.name(), object: nil)
         
     }
     

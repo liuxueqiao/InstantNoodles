@@ -7,7 +7,10 @@
 //
 
 import UIKit
+import ReactiveSwift
+import ReactiveCocoa
 
 class INBaseViewModel: NSObject {
+    
 
 }

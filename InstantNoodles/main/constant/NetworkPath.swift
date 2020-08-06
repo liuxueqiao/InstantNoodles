@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum NetworkPath: NSString {
+enum NetworkPath: String {
     case loginPath = "login"
     case registerPath = "register"
 }

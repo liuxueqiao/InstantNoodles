@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = .white
         
-        self.window?.rootViewController = INTabViewController()
+        self.window?.rootViewController = INLoginViewController()
         self.window?.makeKeyAndVisible()
         
         return true

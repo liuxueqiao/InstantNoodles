@@ -9,5 +9,7 @@
 import UIKit
 
 class INLoginViewModel: INBaseViewModel {
+    
+//    let loginSignal: Signal = Signal.init(<#T##generator: (Signal<_, _>.Observer, Lifetime) -> Void##(Signal<_, _>.Observer, Lifetime) -> Void#>)
 
 }

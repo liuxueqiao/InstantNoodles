@@ -7,13 +7,29 @@
 //
 
 import UIKit
+import ReactiveSwift
+import ReactiveCocoa
 
 class INBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.bindViewModel()
+        self.setupUI()
+        self.dealActions()
+    }
+    
+    func setupUI() {
+        // Subclass implementation
+    }
+    
+    func bindViewModel() {
+       // Subclass implementation
+    }
+    
+    func dealActions() {
+       // Subclass implementation
     }
     
 

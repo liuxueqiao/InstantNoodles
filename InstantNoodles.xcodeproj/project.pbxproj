@@ -26,6 +26,12 @@
 		1878B21D24DA55C800DA3C3C /* INLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B21C24DA55C800DA3C3C /* INLoginViewController.swift */; };
 		1878B21F24DA55DA00DA3C3C /* INLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B21E24DA55DA00DA3C3C /* INLoginViewModel.swift */; };
 		1878B22124DA562300DA3C3C /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22024DA562300DA3C3C /* NetworkPath.swift */; };
+		1878B22324DB88E900DA3C3C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22224DB88E900DA3C3C /* Constant.swift */; };
+		1878B22524DB963400DA3C3C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22424DB963400DA3C3C /* Colors.swift */; };
+		1878B22724DBA01900DA3C3C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22624DBA01900DA3C3C /* Fonts.swift */; };
+		1878B22924DBA47500DA3C3C /* ViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22824DBA47500DA3C3C /* ViewPosition.swift */; };
+		1878B22B24DBEDFF00DA3C3C /* ViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22A24DBEDFF00DA3C3C /* ViewBorder.swift */; };
+		1878B22D24DBF45B00DA3C3C /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B22C24DBF45B00DA3C3C /* ImageExtension.swift */; };
 		F60707782F12B1B26D0164E9 /* Pods_InstantNoodles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +78,12 @@
 		1878B21C24DA55C800DA3C3C /* INLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INLoginViewController.swift; sourceTree = "<group>"; };
 		1878B21E24DA55DA00DA3C3C /* INLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INLoginViewModel.swift; sourceTree = "<group>"; };
 		1878B22024DA562300DA3C3C /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
+		1878B22224DB88E900DA3C3C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1878B22424DB963400DA3C3C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1878B22624DBA01900DA3C3C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		1878B22824DBA47500DA3C3C /* ViewPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPosition.swift; sourceTree = "<group>"; };
+		1878B22A24DBEDFF00DA3C3C /* ViewBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBorder.swift; sourceTree = "<group>"; };
+		1878B22C24DBF45B00DA3C3C /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		249B1CBE31BB2A8B1D165932 /* Pods-InstantNoodles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.debug.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.debug.xcconfig"; sourceTree = "<group>"; };
 		3B31EC75E53BA96994D81FC6 /* Pods-InstantNoodles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantNoodles.release.xcconfig"; path = "Target Support Files/Pods-InstantNoodles/Pods-InstantNoodles.release.xcconfig"; sourceTree = "<group>"; };
 		7328935C0D5E7AF9FDFDD535 /* Pods_InstantNoodles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantNoodles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +194,7 @@
 				1878B21524DA544000DA3C3C /* Config.swift */,
 				1878B21724DA546500DA3C3C /* INNotificationName.swift */,
 				1878B22024DA562300DA3C3C /* NetworkPath.swift */,
+				1878B22224DB88E900DA3C3C /* Constant.swift */,
 			);
 			path = constant;
 			sourceTree = "<group>";
@@ -190,6 +203,11 @@
 			isa = PBXGroup;
 			children = (
 				186FA5CB24D4285400C7BE94 /* ArrayExtension.swift */,
+				1878B22424DB963400DA3C3C /* Colors.swift */,
+				1878B22624DBA01900DA3C3C /* Fonts.swift */,
+				1878B22824DBA47500DA3C3C /* ViewPosition.swift */,
+				1878B22A24DBEDFF00DA3C3C /* ViewBorder.swift */,
+				1878B22C24DBF45B00DA3C3C /* ImageExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -427,12 +445,18 @@
 			files = (
 				186FA5CC24D4285400C7BE94 /* ArrayExtension.swift in Sources */,
 				186FA5DD24D8026200C7BE94 /* INMeViewController.swift in Sources */,
+				1878B22B24DBEDFF00DA3C3C /* ViewBorder.swift in Sources */,
+				1878B22D24DBF45B00DA3C3C /* ImageExtension.swift in Sources */,
+				1878B22324DB88E900DA3C3C /* Constant.swift in Sources */,
 				186FA5DB24D8024B00C7BE94 /* INHomeViewController.swift in Sources */,
 				1878B21424DA540D00DA3C3C /* INHomeViewModel.swift in Sources */,
 				186FA59824D424C400C7BE94 /* AppDelegate.swift in Sources */,
 				1878B21D24DA55C800DA3C3C /* INLoginViewController.swift in Sources */,
+				1878B22724DBA01900DA3C3C /* Fonts.swift in Sources */,
 				1878B21F24DA55DA00DA3C3C /* INLoginViewModel.swift in Sources */,
 				186FA5E024D8029400C7BE94 /* INBaseViewController.swift in Sources */,
+				1878B22524DB963400DA3C3C /* Colors.swift in Sources */,
+				1878B22924DBA47500DA3C3C /* ViewPosition.swift in Sources */,
 				1878B21B24DA55AC00DA3C3C /* INTabViewController.swift in Sources */,
 				1878B21624DA544000DA3C3C /* Config.swift in Sources */,
 				1878B21824DA546500DA3C3C /* INNotificationName.swift in Sources */,

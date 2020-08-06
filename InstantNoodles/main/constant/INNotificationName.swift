@@ -8,8 +8,13 @@
 
 import UIKit
 
-enum INNotificationName {
-    case loginSuccess = Notification.Name(rawValue: "login_success")
+enum INNotification: String {
+    case loginSuccess = "login_success"
+    
+    
+    func name() -> Notification.Name {
+        return Notification.Name(rawValue: rawValue)
+    }
 }
 
 //
