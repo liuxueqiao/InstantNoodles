@@ -10,6 +10,18 @@ import UIKit
 
 class INLoginViewModel: INBaseViewModel {
     
-//    let loginSignal: Signal = Signal.init(<#T##generator: (Signal<_, _>.Observer, Lifetime) -> Void##(Signal<_, _>.Observer, Lifetime) -> Void#>)
+    
+    var nameStr: String?
+    var passwordStr: String?
+    
+//    let loginSignal: Signal = Si
 
+    func login() {
+        guard nameStr != nil else {
+            return
+        }
+        
+        
+    }
+    
 }

@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import ReactiveSwift
-import ReactiveCocoa
+@_exported import RxSwift
+@_exported import RxCocoa
 
 class INBaseViewController: UIViewController {
 

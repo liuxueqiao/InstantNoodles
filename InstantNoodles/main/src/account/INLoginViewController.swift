@@ -11,6 +11,12 @@ import UIKit
 class INLoginViewController: INBaseViewController {
     
     var loginButton: UIButton!
+    var nameInput: UITextField!
+    var passwordInput: UITextField!
+    
+    var viewModel: INLoginViewModel = INLoginViewModel.init()
+    var disposedBag = DisposeBag()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,15 +24,21 @@ class INLoginViewController: INBaseViewController {
     }
     
     override func bindViewModel() {
-        let viewModel = INLoginViewModel.init()
+//        self.nameInput.rx.text.orEmpty.bind(to: self.viewModel.nameStr)
+//        self.passwordInput.rx.text.orEmpty.bind(to: self.viewModel.passwordStr)
         
     }
     
     override func dealActions() {
-        let loginSignal = self.loginButton.reactive.controlEvents(.touchUpInside)
-        loginSignal.observeValues { (button) in
+        self.loginButton.rx.tap.subscribe { (sender) in
             print("-------")
-        }
+        }.disposed(by: disposedBag)
+
+        //在主线程中操作，0.3秒内值若多次改变，取最后一次
+        self.nameInput.rx.text.orEmpty.subscribe(onNext: { [weak self](text) in
+            self?.loginButton.isEnabled = text.count > 0
+        }).disposed(by: disposedBag)
+        
     }
     
 //    func onLogin() {
@@ -48,6 +60,7 @@ class INLoginViewController: INBaseViewController {
         nameInput.rightViewMode = .whileEditing
         nameInput.addBorder(color: .themeColor)
         self.view.addSubview(nameInput)
+        self.nameInput = nameInput
         
         let password = UILabel.init(frame: CGRect.init(x: 20, y: name.bottom+20, width: 50, height: 40))
         password.text = "密码"
@@ -64,12 +77,14 @@ class INLoginViewController: INBaseViewController {
         passwordInput.rightViewMode = .whileEditing
         passwordInput.addBorder(color: .themeColor)
         self.view.addSubview(passwordInput)
+        self.passwordInput = passwordInput
         
         let login = UIButton.init(frame: CGRect.init(x: 35, y: password.bottom+50, width: kScreenWidth-70, height: 40))
         login.setBackgroundImage(UIImage.color(.themeColor), for: .normal)
         login.setBackgroundImage(UIImage.color(.spaceColor), for: .disabled)
         login.setTitle("登录", for: .normal)
         login.setTitleColor(.white, for: .normal)
+        login.setTitleColor(.mBlackColor, for: .disabled)
         login.titleLabel?.font = UIFont.font(size: 16.0)
         login.layer.cornerRadius = 4.0
         login.layer.masksToBounds = true

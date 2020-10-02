@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import ReactiveSwift
-import ReactiveCocoa
+@_exported import RxSwift
 
 class INBaseViewModel: NSObject {
     

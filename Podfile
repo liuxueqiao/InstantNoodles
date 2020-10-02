@@ -6,6 +6,7 @@ inhibit_all_warnings!
 use_frameworks!
 
     pod 'SnapKit'
-    pod 'ReactiveCocoa'
+    pod 'RxSwift'
+    pod 'RxCocoa'
     
 end
